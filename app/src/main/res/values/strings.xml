@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MiappCurriculum</string>
+    <string name="profesion">Profesion</string>
+    <string name="habilidades">Habilidades</string>
+    <string name="formacion">Formacion Academica</string>
+    <string name="profesion_area_profesonal">PROFESION/AREA PROFESONAL</string>
+    <string name="nombre">Nombre</string>
+    <string name="christopher_ariel">Christopher Ariel</string>
+    <string name="apellido">Apellido</string>
+    <string name="espinoza_alegria">Espinoza Alegria</string>
+    <string name="direccion">Direccion</string>
+    <string name="av_casuarina_mz_673_sl_4">Av. Casuarina Mz.673 Sl.4</string>
+    <string name="telefono">Telefono</string>
+    <string name="genero">Genero</string>
+</resources>

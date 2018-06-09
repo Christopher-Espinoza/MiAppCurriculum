@@ -1,0 +1,404 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_profesion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profesion_area_profesonal"
+                        tools:layout_editor_absoluteX="191dp"
+                        tools:layout_editor_absoluteY="110dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView_perfil"
+                        android:layout_width="151dp"
+                        android:layout_height="148dp"
+                        android:contentDescription="TODO"
+                        android:src="@mipmap/foto_perfil"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="58dp" />
+
+                    <TextView
+                        android:id="@+id/text_nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nombre"
+                        tools:layout_editor_absoluteX="191dp"
+                        tools:layout_editor_absoluteY="58dp" />
+
+                    <EditText
+                        android:id="@+id/edit_nombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="@string/christopher_ariel"
+                        tools:layout_editor_absoluteX="191dp"
+                        tools:layout_editor_absoluteY="77dp" />
+
+                    <TextView
+                        android:id="@+id/text_apellido"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apellido"
+                        tools:layout_editor_absoluteX="191dp"
+                        tools:layout_editor_absoluteY="132dp" />
+
+                    <EditText
+                        android:id="@+id/edit_apellido"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="@string/espinoza_alegria"
+                        tools:layout_editor_absoluteX="190dp"
+                        tools:layout_editor_absoluteY="150dp" />
+
+                    <TextView
+                        android:id="@+id/text_direccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/direccion"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="246dp" />
+
+                    <EditText
+                        android:id="@+id/edit_direccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="@string/av_casuarina_mz_673_sl_4"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="264dp" />
+
+                    <TextView
+                        android:id="@+id/text_telefono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/telefono"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="334dp" />
+
+                    <EditText
+                        android:id="@+id/edit_telefono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="phone"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="352dp" />
+
+                    <TextView
+                        android:id="@+id/text_genero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/genero"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="418dp" />
+
+                    <EditText
+                        android:id="@+id/edit_genero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Masculino"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="436dp" />
+
+                    <TextView
+                        android:id="@+id/text_cedula"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cedula"
+                        tools:layout_editor_absoluteX="340dp"
+                        tools:layout_editor_absoluteY="333dp" />
+
+                    <EditText
+                        android:id="@+id/editText_cedula"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="0953979549"
+                        tools:layout_editor_absoluteX="340dp"
+                        tools:layout_editor_absoluteY="352dp" />
+
+                    <TextView
+                        android:id="@+id/text_estado_civil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Estado Civil"
+                        tools:layout_editor_absoluteX="341dp"
+                        tools:layout_editor_absoluteY="245dp" />
+
+                    <EditText
+                        android:id="@+id/editText_estado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="47dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Soltero"
+                        tools:layout_editor_absoluteX="340dp"
+                        tools:layout_editor_absoluteY="260dp" />
+
+                    <TextView
+                        android:id="@+id/text_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="503dp" />
+
+                    <EditText
+                        android:id="@+id/edit_email"
+                        android:layout_width="385dp"
+                        android:layout_height="49dp"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:text="chrisalegria16@hotmail.com"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="522dp" />
+
+                    <TextView
+                        android:id="@+id/text_nacionalidad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nacionalidad"
+                        tools:layout_editor_absoluteX="341dp"
+                        tools:layout_editor_absoluteY="417dp" />
+
+                    <EditText
+                        android:id="@+id/edit_nacionalidad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Ecuatoriano"
+                        tools:layout_editor_absoluteX="340dp"
+                        tools:layout_editor_absoluteY="436dp" />
+
+                    <TextView
+                        android:id="@+id/text_fecha_nacimiento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha de Naciemiento"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="612dp" />
+
+                    <EditText
+                        android:id="@+id/edit_fecha_nacimiento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="date"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="630dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_formacion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FORMACION"
+                        tools:layout_editor_absoluteX="259dp"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <TextView
+                        android:id="@+id/text_fecha1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="fecha"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="378dp" />
+
+                    <EditText
+                        android:id="@+id/editText_fecha1"
+                        android:layout_width="94dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="2017-2017"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="398dp" />
+
+                    <TextView
+                        android:id="@+id/text_institucion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institucion"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="457dp" />
+
+                    <EditText
+                        android:id="@+id/editText_instituto1"
+                        android:layout_width="283dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Universidad de Guayaquil"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="477dp" />
+
+                    <TextView
+                        android:id="@+id/text_carrera1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Titulo"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="542dp" />
+
+                    <EditText
+                        android:id="@+id/editText_carrera1"
+                        android:layout_width="239dp"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Partner de Google"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="560dp" />
+
+                    <TextView
+                        android:id="@+id/text_fecha2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="fecha"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="115dp" />
+
+                    <EditText
+                        android:id="@+id/editText_fecha2"
+                        android:layout_width="94dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="2009-2015"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="134dp" />
+
+                    <TextView
+                        android:id="@+id/text_institucion2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Institucion"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="191dp" />
+
+                    <EditText
+                        android:id="@+id/editText_instituto2"
+                        android:layout_width="283dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Colegio Francsico Huerta Rendon"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="210dp" />
+
+                    <TextView
+                        android:id="@+id/text_carrera2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Titulo"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="269dp" />
+
+                    <EditText
+                        android:id="@+id/editText_carrera2"
+                        android:layout_width="239dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Administracion en Sistemas"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="288dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_expe_fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha" />
+
+                    <EditText
+                        android:id="@+id/editText_exep_fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="date" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Instituto" />
+
+                    <EditText
+                        android:id="@+id/editText9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/text_expe_cargo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cargo" />
+
+                    <EditText
+                        android:id="@+id/editText_expe_cargo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
