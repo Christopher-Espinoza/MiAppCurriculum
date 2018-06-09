@@ -42,6 +42,18 @@ public class MainActivity extends AppCompatActivity {
                 res.getDrawable(android.R.drawable.ic_dialog_map));
         tabs.addTab(spec);
 
+        spec=tabs.newTabSpec("mitab5");
+        spec.setContent(R.id.tab5);
+        spec.setIndicator("Conocimientos",
+                res.getDrawable(android.R.drawable.ic_dialog_map));
+        tabs.addTab(spec);
+
+        spec=tabs.newTabSpec("mitab6");
+        spec.setContent(R.id.tab6);
+        spec.setIndicator("Distinciones",
+                res.getDrawable(android.R.drawable.ic_dialog_map));
+        tabs.addTab(spec);
+
         tabs.setCurrentTab(0);
     }
 }
