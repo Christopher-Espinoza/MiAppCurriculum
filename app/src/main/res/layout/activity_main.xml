@@ -22,7 +22,7 @@
 
                 <TabWidget
                     android:id="@android:id/tabs"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
             </HorizontalScrollView>
@@ -50,7 +50,7 @@
                         android:id="@+id/imageView_perfil"
                         android:layout_width="151dp"
                         android:layout_height="148dp"
-                        android:contentDescription="TODO"
+                        android:contentDescription="@string/todo"
                         android:src="@mipmap/foto_perfil"
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="58dp" />
@@ -134,21 +134,25 @@
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="418dp" />
 
-                    <EditText
-                        android:id="@+id/edit_genero"
+                    <CheckBox
+                        android:id="@+id/checkBox_genero_m"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Masculino"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="436dp" />
+                        android:text="@string/masculino" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_genero_f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Femenino" />
 
                     <TextView
                         android:id="@+id/text_cedula"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cedula"
+                        android:text="@string/cedula"
                         tools:layout_editor_absoluteX="340dp"
                         tools:layout_editor_absoluteY="333dp" />
 
@@ -158,7 +162,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="0953979549"
+                        android:text="@string/_0953979549"
                         tools:layout_editor_absoluteX="340dp"
                         tools:layout_editor_absoluteY="352dp" />
 
@@ -166,7 +170,7 @@
                         android:id="@+id/text_estado_civil"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Estado Civil"
+                        android:text="@string/estado_civil"
                         tools:layout_editor_absoluteX="341dp"
                         tools:layout_editor_absoluteY="245dp" />
 
@@ -176,7 +180,7 @@
                         android:layout_height="47dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Soltero"
+                        android:text="@string/soltero"
                         tools:layout_editor_absoluteX="340dp"
                         tools:layout_editor_absoluteY="260dp" />
 
@@ -184,7 +188,7 @@
                         android:id="@+id/text_email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Email"
+                        android:text="@string/email"
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="503dp" />
 
@@ -194,7 +198,7 @@
                         android:layout_height="49dp"
                         android:ems="10"
                         android:inputType="textEmailAddress"
-                        android:text="chrisalegria16@hotmail.com"
+                        android:text="@string/chrisalegria16_hotmail_com"
                         tools:layout_editor_absoluteX="16dp"
                         tools:layout_editor_absoluteY="522dp" />
 
@@ -485,33 +489,40 @@
                     <TextView
                         android:id="@+id/text_Reconocimiento"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Reconocimiento"/>
 
                     <EditText
                         android:id="@+id/editText_reconocimiento"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="" />
 
                     <TextView
                         android:id="@+id/text_distinstitucion"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="" />
 
                     <EditText
                         android:id="@+id/editText_distinsttucion"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="" />
 
                     <TextView
                         android:id="@+id/text_distfecha"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="" />
 
                     <EditText
                         android:id="@+id/editText_distfecha"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:inputType="date"/>
+                        android:inputType="date"
+                        android:text="" />
+
                 </LinearLayout>
 
             </FrameLayout>

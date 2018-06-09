@@ -12,4 +12,12 @@
     <string name="av_casuarina_mz_673_sl_4">Av. Casuarina Mz.673 Sl.4</string>
     <string name="telefono">Telefono</string>
     <string name="genero">Genero</string>
+    <string name="todo">TODO</string>
+    <string name="masculino">Masculino</string>
+    <string name="cedula">Cedula</string>
+    <string name="_0953979549">0953979549</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="soltero">Soltero</string>
+    <string name="email">Email</string>
+    <string name="chrisalegria16_hotmail_com">chrisalegria16@hotmail.com</string>
 </resources>
