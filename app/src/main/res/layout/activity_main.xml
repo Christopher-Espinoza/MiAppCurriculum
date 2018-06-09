@@ -422,8 +422,44 @@
                         android:id="@+id/editText_contactnombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/text_contactcorreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Correo" />
+
+                    <EditText
+                        android:id="@+id/editText_contactcorreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:ems="10"
-                        android:inputType="date" />
+                        android:inputType="textEmailAddress" />
+
+                    <TextView
+                        android:id="@+id/text_contactempresa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Empresa" />
+
+                    <EditText
+                        android:id="@+id/editText_contactempresa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/text_contacttelefono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <EditText
+                        android:id="@+id/editText_contacttelefono"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
 
                 </LinearLayout>
 
@@ -433,6 +469,11 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <TextView
+                        android:id="@+id/text_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -441,6 +482,36 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <TextView
+                        android:id="@+id/text_Reconocimiento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/editText_reconocimiento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/text_distinstitucion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/editText_distinsttucion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/text_distfecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/editText_distfecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"/>
                 </LinearLayout>
 
             </FrameLayout>
