@@ -36,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 res.getDrawable(android.R.drawable.ic_dialog_map));
         tabs.addTab(spec);
 
+        spec=tabs.newTabSpec("mitab4");
+        spec.setContent(R.id.tab4);
+        spec.setIndicator("Contactos y Referencias",
+                res.getDrawable(android.R.drawable.ic_dialog_map));
+        tabs.addTab(spec);
+
         tabs.setCurrentTab(0);
     }
 }

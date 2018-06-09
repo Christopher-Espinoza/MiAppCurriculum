@@ -14,10 +14,18 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TabWidget
-                android:id="@android:id/tabs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </HorizontalScrollView>
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
@@ -395,6 +403,43 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_contactnombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha" />
+
+                    <EditText
+                        android:id="@+id/editText_contactnombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="date" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                 </LinearLayout>
 
